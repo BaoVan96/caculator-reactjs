@@ -6,7 +6,7 @@ class Display extends React.Component {
         return (
             <div className="display">
                 <div>
-                    0
+                {this.props.value}
                 </div>
             </div>
         )
